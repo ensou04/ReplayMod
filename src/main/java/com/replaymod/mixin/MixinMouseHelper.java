@@ -31,6 +31,7 @@ public abstract class MixinMouseHelper {
     private void handleReplayModScroll(
             long _p0, double _p1, double _p2,
             CallbackInfo ci,
+            double _l1,
             double yOffsetAccumulated
     ) {
         if (ReplayModReplay.instance.getReplayHandler() != null) {
